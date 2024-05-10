@@ -4,7 +4,7 @@ from random import choice
 import os
 import google.generativeai as genai
 
-GOOGLE_API_KEY = ''  # Gemini API key
+GOOGLE_API_KEY = 'Token'  # Gemini API key
 genai.configure(api_key=GOOGLE_API_KEY)
 
 engine = pyttsx3.init()
